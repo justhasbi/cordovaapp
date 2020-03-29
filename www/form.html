@@ -22,7 +22,7 @@
                 var dataString = "id=" + id + "&title=" + title + "&duration=" + duration + "&price=" + price + "&update=";
                 $.ajax({
                     type: "POST",
-                    url: "http://localhost/cordovaapps/www/database/json.php",
+                    url: "http://localhost/cordovaapps/www/database/update.php",
                     data: dataString,
                     crossDomain: true,
                     cache: false,
@@ -45,7 +45,7 @@
                 var dataString = "id=" + id + "&delete=";
                 $.ajax({
                     type: "GET",
-                    url: "http://localhost/phonegap/database/delete.php",
+                    url: "http://localhost/cordovaapps/www/database/delete.php",
                     data: dataString,
                     crossDomain: true,
                     cache: false,

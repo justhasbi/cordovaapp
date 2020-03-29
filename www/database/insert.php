@@ -13,5 +13,6 @@ if (isset($_POST['insert'])) {
      else 
         echo "Error";
     
+    print_r($qr);
 }
 ?>

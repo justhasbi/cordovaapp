@@ -13,7 +13,7 @@
                 if ($.trim(title).length > 0 & $.trim(duration).length > 0 & $.trim(price).length > 0) {
                     $.ajax({
                         type: "POST",
-                        url: "http://localhost/cordovaapps/www/database/json.php",
+                        url: "http://localhost/cordovaapps/www/database/insert.php",
                         data: dataString,
                         crossDomain: true,
                         cache: false,
